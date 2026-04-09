@@ -1033,7 +1033,11 @@ nav .container .phone-menu ul a:hover {
     margin: 0;
 }
 
-.contact .container .content form input:nth-child(3) {
+.contact .container .content form textarea {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 15px;
+    display: block;
     height: 150px;
     margin-bottom: 30px;
     display: flex;
