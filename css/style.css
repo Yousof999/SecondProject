@@ -861,101 +861,6 @@ nav .container .phone-menu ul a:hover {
 
 /* End pric */
 
-@media (max-width: 1050px) {
-    .about .content .container .boxs {
-        flex-wrap: wrap;
-    }
-    .about .content .container .boxs .box {
-        width: 40%;
-    }
-    .pricing .container .content .boxs {
-        flex-wrap: wrap;
-    }
-    .pricing .container .content .boxs .box {
-        width: 40%;
-        margin: auto;
-    }
-}
-
- @media (max-width: 960px) {
-    .profile .images .img {
-        width: 33.33%;
-    }
-
-    .skills .content {
-        flex-direction: column;
-    }
-    .skills .content .img {
-        width: 70%;
-        height: 700px;
-        margin: auto;
-    }
-    .skills .content .text {
-        width: 100%;
-        margin-top: 80px;
-    }
-    .hero .container .text {
-        width: 100%;
-    }
-}
-
-@media (max-width: 769px) {
-    nav .container .menu ul {
-        display: none;
-    }
-    nav {
-        width: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    nav .container .phone-menu {
-        display: block;
-    }
-    nav .container .phone-menu i {
-        position: absolute;
-        right: 50px;
-        top: 40%;
-    }
-    nav .container .phone-menu:hover ul {
-        display: block;
-    }
-    nav .container .fa-magnifying-glass {
-        position: absolute;
-        right: 0px;
-    }
-
-    .profile .images .img {
-        width: 50%;
-    }
-
-    .services .container .cards .card {
-        width: 100%;
-    }
-    .about .container .sections,
-    .about .container .sections {
-        flex-wrap: wrap;
-    }
-
-    .about .container .sections .section1,
-    .about .container .sections .section2 {
-        width: 100%;
-    }
-    .about .container .sections .section1 .cards .card {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .about .container .sections .section1 .cards .card .logo {
-        width: 100px;
-    }
-    .about .content .container .boxs .box {
-        width: 100%;
-    }
-    .about .content::before {
-        background-color: black;
-    }
-}
-
 /* Start Form */
 
 .form {
@@ -1171,6 +1076,105 @@ footer .container p > span {
     .form .container p {
         width: 80%;
         margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .about .content .container .boxs {
+        flex-wrap: wrap;
+    }
+    .about .content .container .boxs .box {
+        width: 40%;
+    }
+    .pricing .container .content .boxs {
+        flex-wrap: wrap;
+    }
+    .pricing .container .content .boxs .box {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+ @media (max-width: 960px) {
+    .profile .images .img {
+        width: 33.33%;
+    }
+
+    .skills .content {
+        flex-direction: column;
+    }
+    .skills .content .img {
+        width: 70%;
+        height: 700px;
+        margin: auto;
+    }
+    .skills .content .text {
+        width: 100%;
+        margin-top: 80px;
+    }
+    .hero .container .text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+    nav .container .menu ul {
+        display: none;
+    }
+    nav {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    nav .container .phone-menu {
+        display: block;
+        transition: 0.4s;
+    }
+    nav .container .phone-menu ul {
+        transition: 0.4s;
+    }
+    nav .container .phone-menu i {
+        position: absolute;
+        right: 50px;
+        top: 40%;
+    }
+    nav .container .phone-menu:hover ul {
+        display: block;
+    }
+    nav .container .fa-magnifying-glass {
+        position: absolute;
+        right: 0px;
+    }
+
+    .profile .images .img {
+        width: 50%;
+    }
+
+    .services .container .cards .card {
+        width: 100%;
+    }
+    .about .container .sections,
+    .about .container .sections {
+        flex-wrap: wrap;
+    }
+
+    .about .container .sections .section1,
+    .about .container .sections .section2 {
+        width: 100%;
+    }
+    .about .container .sections .section1 .cards .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about .container .sections .section1 .cards .card .logo {
+        width: 100px;
+    }
+    .about .content .container .boxs .box {
+        width: 100%;
+    }
+    .about .content::before {
+        background-color: black;
     }
 }
 
